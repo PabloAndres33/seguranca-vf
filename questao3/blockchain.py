@@ -58,7 +58,7 @@ begin = time.time()
 
 blockchain = Blockchain()
 
-for n in range(1):
+for n in range(10000):
     blockchain.mine(Block("Block " + str(n+1)))
 
 while blockchain.head != None:
