@@ -1,0 +1,20 @@
+3 - Implemente a construção de blocos de uma blockchain. Simule a evolução de uma blockchain de 10.000 blocos, onde cada bloco possui até 20 transações geradas aleatoriamente. Em seguida, tente fraudar alguma transação do bloco 35, mantendo toda a cadeia íntegra. Ao fim, responda as seguintes perguntas:
+
+3.1 - Quanto tempo leva, em média, para a inserir um novo bloco na cadeia?
+Em média, leva 5 segundos para ser inserido um novo bloco.
+
+OBS: esse foi o tempo médio que observei com meu computador criando um novo bloco, fiz ele testastando em situações em que tinha tamanhos diferentes, e calculei os tempos medios de cada resultado correspondente ao tamanho da blockchain.
+Resultando na média de 5 segundos
+
+3.2 - Quanto tempo leva, em média, para tornar a blockchain válida após a alteração -indevida- do bloco 35?
+Em média, leva 49825 segundos, ou seja, quase 14 horas para tornar a blockchain válida após a alteração.
+
+3.3 - Quanto tempo leva, em média, para tornar a blockchain válida após a alteração -indevida- do N-ésimo bloco?
+Calculando numero total de blocos no qual é 10000, menos a posição do bloco alterado indevidamente. Onde resultará em 
+um valor que será multiplicado pelo tempo médio que se leva para inserir um novo bloco sendo esse o caso, 5 segundos.
+Resultado neste calculo: 
+                         r = (blocosTotal - blocoIndevido) * tempoMedioBloco
+Exemplo da questão anterior:
+                         r = (10000 - 35) * 5
+                         r = 9965 * 5
+                         r = 49825
