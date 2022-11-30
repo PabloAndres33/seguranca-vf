@@ -3,7 +3,7 @@
 3.1 - Quanto tempo leva, em média, para a inserir um novo bloco na cadeia?
 Em média, leva 5 segundos para ser inserido um novo bloco.
 
-OBS: esse foi o tempo médio que observei com meu computador criando um novo bloco, fiz ele testastando em situações em que tinha tamanhos diferentes, e calculei os tempos medios de cada resultado correspondente ao tamanho da blockchain.
+OBS: esse foi o tempo médio que observei com meu computador criando um novo bloco, fiz ele testando em situações em que tinha tamanhos diferentes, e calculei os tempos medios de cada resultado correspondente ao tamanho da blockchain.
 Resultando na média de 5 segundos
 
 3.2 - Quanto tempo leva, em média, para tornar a blockchain válida após a alteração -indevida- do bloco 35?

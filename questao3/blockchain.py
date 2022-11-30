@@ -58,10 +58,10 @@ begin = time.time()
 
 blockchain = Blockchain()
 
-for n in range(10000):
+for n in range(1):
     blockchain.mine(Block("Block " + str(n+1)))
 
 while blockchain.head != None:
     print(blockchain.head)
     blockchain.head = blockchain.head.next
-print(time.time() - begin)
+print(f"{time.time() - begin} segundos")
