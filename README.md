@@ -3,7 +3,7 @@
 - ### Keylogger
   - Baixar a bilbioteca do python pynput com o seguinte comando: pip install pynput
   - Desabilite as proteções do windows e excecute com o comando: python main.py
-- ### certified web site
+- ### SITE com Certificado
   - Instalar o node para rodar e instalar as bibliotecas necessárias.
   - Bibliotecas para serem instaladas: expres(npm install express)
   - excecutar com o comando: server.js
